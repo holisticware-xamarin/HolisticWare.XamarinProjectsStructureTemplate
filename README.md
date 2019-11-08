@@ -1,0 +1,2 @@
+# HolisticWare.XamarinProjectsStructureTemplate
+HolisticWare.XamarinProjectsStructureTemplate
