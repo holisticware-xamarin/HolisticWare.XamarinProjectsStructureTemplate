@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>Xamarin.iOS10</TargetFrameworks>
+    <IsBindingProject>true</IsBindingProject>
+    <RootNamespace>XamarinProjectsStructureTemplate.Bindings</RootNamespace>
+    <AssemblyName>XamarinProjectsStructureTemplate.Bindings</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+    <FileVersion>0.0.0.0</FileVersion>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>HolisticWare.XamarinProjectsStructureTemplate.Bindings</PackageId>
+    <Title>HolisticWare.XamarinProjectsStructureTemplate.Bindings iOS Library</Title>
+    <Summary>C# bindings for HolisticWare.XamarinProjectsStructureTemplate.Bindings iOS Library</Summary>
+    <Description>C# bindings for HolisticWare.XamarinProjectsStructureTemplate.Bindings iOS Library</Description>
+    <Authors>HolisticWare, Xamarin</Authors>
+    <Authors>HolisticWare, Xamarin</Authors>
+    <Copyright>HolisticWare</Copyright>
+    <PackageIconUrl>https://holisticware.net</PackageIconUrl>
+    <PackageProjectUrl>https://holisticware.net</PackageProjectUrl>
+    <PackageLicenseUrl>https://holisticware.net</PackageLicenseUrl>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <RequireLicenceAcceptance>true</RequireLicenceAcceptance>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageTags>holisticware, xamarin, android, bindings,  </PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackOnBuild>true</PackOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Xamarin.iOS" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Folder Include="Resources\" />
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  
+
+  <ItemGroup>
+    <Compile Remove="ApiDefinition.cs" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ObjcBindingApiDefinition Include="ApiDefinition.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true'" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MSBuild.Sdk.Extras" Version="1.4.0" PrivateAssets="All" />
+  </ItemGroup>
+  
+  <Import Project="$(MSBuildSDKExtrasTargets)" Condition="Exists('$(MSBuildSDKExtrasTargets)')" />
+
+</Project>
+
+
