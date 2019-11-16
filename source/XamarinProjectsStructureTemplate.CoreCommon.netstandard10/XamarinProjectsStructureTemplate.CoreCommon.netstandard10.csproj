@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.0</TargetFramework>
-    <RootNamespace>XamarinProjectsStructureTemplate.Bindings</RootNamespace>
-    <AssemblyName>XamarinProjectsStructureTemplate.Bindings</AssemblyName>
+    <RootNamespace>XamarinProjectsStructureTemplate</RootNamespace>
+    <AssemblyName>XamarinProjectsStructureTemplate</AssemblyName>
     <DefaultItemExcludes>$(DefaultItemExcludes);.DS_Store</DefaultItemExcludes>
   </PropertyGroup>
 
