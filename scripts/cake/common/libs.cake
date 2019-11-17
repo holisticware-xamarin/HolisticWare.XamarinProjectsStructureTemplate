@@ -87,6 +87,7 @@ Task("libs-dotnet-solutions")
             {
 				foreach (string config in configs)
                 {
+                    Information($"DotNetCoreBuild {config} - {sln} ");
                     DotNetCoreBuild
                     (
                         sln.ToString(),
@@ -110,6 +111,7 @@ Task("libs-msbuild-projects")
         {
             foreach(FilePath prj in SourceLibProjects)
             {
+                Information($"DotNetCoreBuild {config} - {prj} ");
                 MSBuild
                 (
                     prj.ToString(),
