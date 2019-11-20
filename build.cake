@@ -2,8 +2,9 @@
 #########################################################################################
 Installing
 
-doitnet tool Cake
+dotnet tool Cake
 
+    dotnet tool install -g Cake.Tool
 
 Vannila Cake
 
