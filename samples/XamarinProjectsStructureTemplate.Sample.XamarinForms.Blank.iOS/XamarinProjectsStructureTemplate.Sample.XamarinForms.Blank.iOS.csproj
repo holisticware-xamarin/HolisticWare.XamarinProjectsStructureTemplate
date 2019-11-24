@@ -131,17 +131,9 @@
       <Project>{A47A089F-AA72-44E5-8A58-258DF4A8F6FE}</Project>
       <Name>XamarinProjectsStructureTemplate.Sample.XamarinForms.Blank</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\source\XamarinProjectsStructureTemplate.Bindings.netstandard10\XamarinProjectsStructureTemplate.Bindings.netstandard10.csproj">
-      <Project>{C2DC201B-4D37-4490-9C24-43CE1DF3DC12}</Project>
-      <Name>XamarinProjectsStructureTemplate.Bindings.netstandard10</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\source\XamarinProjectsStructureTemplate.Bindings.XamarinIOS\XamarinProjectsStructureTemplate.Bindings.XamarinIOS.csproj">
       <Project>{FFBF2486-846B-447B-9741-AC0A7EE1746F}</Project>
       <Name>XamarinProjectsStructureTemplate.Bindings.XamarinIOS</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\source\XamarinProjectsStructureTemplate.Bindings.XamarinIOS.OldNonSDKStyle\XamarinProjectsStructureTemplate.Bindings.XamarinIOS.OldNonSDKStyle.csproj">
-      <Project>{86A43EF1-6DF4-48D7-930B-B7590F46113A}</Project>
-      <Name>XamarinProjectsStructureTemplate.Bindings.XamarinIOS.OldNonSDKStyle</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\source\XamarinProjectsStructureTemplate.XamarinIOS\XamarinProjectsStructureTemplate.XamarinIOS.csproj">
       <Project>{0FA4E7C0-318F-4515-AFA4-613FF3A296CB}</Project>
