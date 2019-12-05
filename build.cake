@@ -82,22 +82,24 @@ var TARGET = Argument ("t", Argument ("target", "Default"));
 
 string[] directories_to_clean = new string[]
 {
-    "./external/repos-downloaded/",
-    "./output/",
-    "./tools/",
-    "./source/**/bin/",
-    "./source/**/obj/",
-    "./samples/**/bin/",
-    "./samples/**/obj/",
+    "./tests/**/.vs/",
     "./tests/**/bin/",
     "./tests/**/obj/",
-    "./source/**/.vs/",
-    "./samples/**/.vs/",
-    "./tests/**/.vs/",
-    "./source/**/.idea/",
-    "./samples/**/.idea/",
     "./tests/**/.idea/",
-    "./**/packages/",
+    "./tests/**/packages/",
+    "./external/repos-downloaded/",
+    "./externals/repos-downloaded/",
+    "./output/",
+    "./source/**/.vs/",
+    "./source/**/bin/",
+    "./source/**/obj/",
+    "./source/**/.idea/",
+    "./source/**/packages/",
+    "./samples/**/.vs/",
+    "./samples/**/bin/",
+    "./samples/**/obj/",
+    "./samples/**/.idea/",
+    "./samples/**/packages/",
 };
 
 string[] files_to_clean = new string[]
