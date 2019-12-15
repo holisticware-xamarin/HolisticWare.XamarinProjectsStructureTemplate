@@ -25,7 +25,8 @@ Task("libs-msbuild-solutions")
         {
             foreach(FilePath sln in SourceLibSolutions)
             {
-                string binlog_path = $"./output/holisticware-source-build-{sln}.binlog";
+                string sln_filename = sln.GetFilename().ToString();
+                string binlog_path = $"./output/source-build-{sln_filename}.binlog";
 				foreach (string config in configs)
                 {
                     MSBuild

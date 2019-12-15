@@ -160,8 +160,10 @@ Task("Default")
         {
             foreach(string target_to_run in targets_to_run)
             {
-                RunTarget($"target_to_run");
+                RunTarget($"{target_to_run}");
             }
+
+            return;
         }
     );
 
