@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>HolisticWare.XamarinProjectsStructureTemplate</id>
-    <title>HolisticWare.XamarinProjectsStructureTemplate for Xamarin</title>
+    <id>HolisticWare.ProjectTemplate</id>
+    <title>HolisticWare.ProjectTemplate for Xamarin</title>
     <version>0.0.0.0</version>
     <authors>moljac Miljenko Mel Cvjetko HolisticWare/Xamarin</authors>
     <owners>HolisticWare</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Xamarin HolisticWare.XamarinProjectsStructureTemplate</description>
+    <description>Xamarin HolisticWare.ProjectTemplate</description>
     <copyright>Copyright 2019</copyright>
     <iconUrl>https://github.com/moljac</iconUrl>
     <projectUrl>https://github.com/moljac</projectUrl>
