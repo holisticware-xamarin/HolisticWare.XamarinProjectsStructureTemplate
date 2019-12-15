@@ -1,4 +1,4 @@
-# Read me XamarinProjectsStructureTemplate
+# Read me ProjectTemplate
 
 ## Library Source
 
