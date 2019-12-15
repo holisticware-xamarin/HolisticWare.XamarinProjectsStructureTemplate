@@ -1,0 +1,57 @@
+<Project Sdk="MSBuild.Sdk.Extras/2.0.54">
+  <PropertyGroup>
+    <!--
+    <TargetFrameworks>Xamarin.iOS10</TargetFrameworks>
+    -->
+    <TargetFramework>Xamarin.iOS10</TargetFramework>
+    <IsBindingProject>true</IsBindingProject>
+    <RootNamespace>ProjectTemplate.Bindings</RootNamespace>
+    <AssemblyName>ProjectTemplate.Bindings</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+    <FileVersion>0.0.0.0</FileVersion>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>HolisticWare.ProjectTemplate.Bindings</PackageId>
+    <Title>HolisticWare.ProjectTemplate.Bindings iOS Library</Title>
+    <Summary>C# bindings for HolisticWare.ProjectTemplate.Bindings iOS Library</Summary>
+    <Description>C# bindings for HolisticWare.ProjectTemplate.Bindings iOS Library</Description>
+    <Authors>HolisticWare, Xamarin</Authors>
+    <Authors>HolisticWare, Xamarin</Authors>
+    <Copyright>HolisticWare</Copyright>
+    <PackageIconUrl>https://holisticware.net</PackageIconUrl>
+    <PackageProjectUrl>https://holisticware.net</PackageProjectUrl>
+    <PackageLicenseUrl>https://holisticware.net</PackageLicenseUrl>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <RequireLicenceAcceptance>true</RequireLicenceAcceptance>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageTags>holisticware, xamarin, android, bindings,  </PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackOnBuild>true</PackOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Xamarin.iOS" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Folder Include="Resources\" />
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  
+
+  <ItemGroup>
+    <Compile Remove="ApiDefinition.cs" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ObjcBindingApiDefinition Include="ApiDefinition.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true'" />
+  </ItemGroup>
+  
+  <Import Project="$(MSBuildSDKExtrasTargets)" Condition="Exists('$(MSBuildSDKExtrasTargets)')" />
+
+</Project>
+
+

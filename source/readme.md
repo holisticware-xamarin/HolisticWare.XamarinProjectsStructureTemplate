@@ -12,23 +12,23 @@
 
         *   Xamarin.Android  (new style, short style, SDK style projects)
 
-            `XamarinProjectsStructureTemplate.Bindings.XamarinAndroid`
+            `ProjectTemplate.Bindings.XamarinAndroid`
 
         *   Xamarin.Android (old style, long style, non SDK style projects)
 
-            `XamarinProjectsStructureTemplate.Bindings.XamarinAndroid.OldNonSDKStyle`
+            `ProjectTemplate.Bindings.XamarinAndroid.OldNonSDKStyle`
 
         *   Xamarin.iOS (new style, short style, SDK style projects)
 
-            `XamarinProjectsStructureTemplate.Bindings.XamarinIOS`
+            `ProjectTemplate.Bindings.XamarinIOS`
 
         *   Xamarin.iOS (old style, long style, non SDK style projects)
 
-            `XamarinProjectsStructureTemplate.Bindings.XamarinIOS.OldNonSDKStyle`
+            `ProjectTemplate.Bindings.XamarinIOS.OldNonSDKStyle`
 
         *   netstandard library for *bindings* common API abstractions (like Xamarin.Forms or Xamarin.Essentials)
 
-            `XamarinProjectsStructureTemplate.Bindings.netstandard10`
+            `ProjectTemplate.Bindings.netstandard10`
 
 *   Library (API) projects
 
@@ -36,19 +36,19 @@
 
         *   netstandard library for common API abstractions (like Xamarin.Forms or Xamarin.Essentials)
 
-            `XamarinProjectsStructureTemplate.netstandard10`
+            `ProjectTemplate.netstandard10`
 
         *   shared library for common API abstractions (like Xamarin.Forms or Xamarin.Essentials)
 
-            `XamarinProjectsStructureTemplate.Shared`
+            `ProjectTemplate.Shared`
 
         *   Xamarin.Android platform specific library code
 
-            `XamarinProjectsStructureTemplate.XamarinAndroid`
+            `ProjectTemplate.XamarinAndroid`
 
         *   Xamarin.Android platform specific library code
 
-            `XamarinProjectsStructureTemplate.XamarinIOS`
+            `ProjectTemplate.XamarinIOS`
 
 ## TODO (planed)
 

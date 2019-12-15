@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.0</TargetFramework>
+    <RootNamespace>ProjectTemplate.Bindings</RootNamespace>
+    <AssemblyName>ProjectTemplate.Bindings</AssemblyName>
+    <DefaultItemExcludes>$(DefaultItemExcludes);.DS_Store</DefaultItemExcludes>
+  </PropertyGroup>
+
+</Project>
