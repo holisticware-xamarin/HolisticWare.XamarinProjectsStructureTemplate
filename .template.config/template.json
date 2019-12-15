@@ -13,7 +13,7 @@
     "groupIdentity": "HolisticWare.Tools.ProjectTemplates",
     "name": "Custom template for Xamarin cross platform libraries and bindings",
     // A unique ID for the project template.
-    "identity": "HolisticWare.DotNetNew.XamarinProjectsStructureTemplate.CSharp",
+    "identity": "HolisticWare.DotNetNew.ProjectTemplate.CSharp",
     // for commandline project creation
     "shortName": "hw-structure",
     // replacement guids - used in the projects that will be replaced by new ones
@@ -30,7 +30,7 @@
     // replacements string
     //      -   csproj file
     //      -   namespace
-    "sourceName": "XamarinProjectsStructureTemplate",
+    "sourceName": "ProjectTemplate",
     // placeholderFilename (optional)
     // A filename that will be completely ignored expect to indicate that its containing
     // directory should be copied. This allows creation of empty directory in the created
